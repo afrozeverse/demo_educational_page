@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Embed Wonders</title>
+    <style>
+        body
+        {
+            padding: 0px;
+            margin: 0;
+            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .main-container
+        {
+            padding: 40px;
+        }
+        .sub-container
+        {
+            margin-bottom: 60px;
+        }
+        #cont-3 iframe
+        {
+            background-color: red;
+            width: 30%;
+            height: 50vh;
+            border-radius: 10px;
+        }
+        #cont-4 iframe
+        {
+            background-color: red;
+            height: 50vh;
+        }
+        .banner
+        {
+            background-color: rgb(56, 97, 97);
+            margin: 0;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+        }
+        .nav
+        {
+            background-color: rgb(71, 124, 124);
+            position: sticky;
+            top: 0px;
+            padding: 20px;
+            color: white;
+        }
+        .nav select
+        {
+            background-color:rgb(71, 124, 124);
+            border: 2px solid white;
+            padding: 5px;
+            color:  white;
+            border-radius: 15px;
+        }
+        .nav select:active
+        {
+            border: 2px solid yellow;
+        }
+        .nav select:focus
+        {
+            border: 2px solid yellow;
+            outline: none;
+        }
+        #cont-1
+        {
+            text-align: justify;
+        }
+        #cont-4 a
+        {
+            text-decoration: none;
+            background-color: green;
+            padding: 15px;
+            color: white;
+            border-radius: 10px;
+        }
+        #cont-4 a:hover
+        {
+            background-color: rgb(1, 146, 1);
+            padding: 18px;
+            cursor: pointer;
+        }
+        #cont-4 div
+        {
+            margin-top: 30px;
+        }
+        #cont-5 iframe
+        {
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>HTML ACADEMY</h1>
+    </div>
+    <div class="nav">
+        <label for="goto">List of Content</label>
+        <select name="" id="goto">
+            <option value=""> See Here</option>
+            <option value=""> What is iFrame</option>
+            <option value="">Video Content</option>
+            <option value="">Notes</option>
+            <option value="">HTML Editor</option>
+            <option value="">Visit Us</option>
+        </select>
+    </div>
+    <div class="main-container">
+        <!-- container - 1 -->
+        <div class="sub-container" id="cont-1">
+            <h2>What is iFrame?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi accusamus velit modi? Nemo dolor, inventore neque nesciunt enim debitis sint pariatur totam blanditiis fugit obcaecati facere deserunt. Perspiciatis, quae! Rerum voluptatum, ipsa doloribus, dicta eius vitae explicabo obcaecati necessitatibus accusamus quibusdam architecto modi dolore illum voluptas quaerat eaque et? Repudiandae pariatur dicta nihil, numquam soluta doloribus modi suscipit provident exercitationem fugiat amet facilis aliquid saepe, placeat consequatur, ipsum velit itaque. Accusamus nemo sunt molestiae officia corporis beatae possimus ea ipsum sint molestias accusantium necessitatibus, illo facilis non nulla voluptas laboriosam distinctio laudantium inventore dolorem. Doloribus quasi soluta maiores quas quaerat autem natus impedit illum porro id perferendis, aliquid eius reiciendis iste velit aperiam accusantium praesentium libero facere cumque vero adipisci suscipit alias! Sed, ratione consequatur! Voluptatum, ullam nemo minus quod exercitationem a minima eveniet ratione? Est neque odio, error vel nihil quam amet vero numquam quisquam provident officia necessitatibus impedit at harum maxime, assumenda enim exercitationem laboriosam eum natus rerum, id repellat quasi. Laboriosam dignissimos quasi odit neque repellat et quidem vero dolorum omnis nisi! Amet ducimus, consectetur fuga dolore numquam labore cupiditate cum possimus similique repellendus voluptatem recusandae ut in earum optio accusamus, aliquam quis. Tempore reiciendis iste atque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deserunt ea sequi ab dignissimos aperiam ex, nesciunt necessitatibus, enim atque aliquam maiores vitae hic sed suscipit, nisi odit qui! Aut mollitia hic tempore voluptas animi, dolor tenetur ex molestiae incidunt quod culpa beatae explicabo modi, a obcaecati fuga soluta earum consequuntur error ipsam sint corporis laudantium voluptatibus. Nemo doloribus commodi rem aut similique beatae quod nam, sed nulla eaque ullam, excepturi veniam voluptatem sint id. Eius minus odio temporibus quas veritatis saepe tenetur quae qui quo quidem ipsum, fuga provident quaerat explicabo eaque est distinctio sit itaque soluta sed facere similique. Sunt molestias facilis modi ducimus ut hic voluptates accusantium totam necessitatibus. Minus asperiores provident perspiciatis non placeat necessitatibus numquam?</p>
+        </div>
+        
+        <!-- container - 2 -->
+        <div class="sub-container 2" id="cont-2"><h2>Don't have time to read? Watch it out</h2>
+            <iframe  src="https://www.youtube.com/embed/s4BibernJxU?si=u-LtGCs12HN7291y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            
+        <!-- container - 3 -->
+        <div class="sub-container" id="cont-3"><h2>Notes</h2>
+            <iframe src="https://www.cs.uct.ac.za/mit_notes/web_programming/pdfs/chp06.pdf" frameborder="0"></iframe>
+ 
+        </div>
+        
+        <!-- container - 4 -->
+        <div class="sub-container 4" id="cont-4"><h2>Try your skills</h2>
+            <iframe src="https://onecompiler.com/html" frameborder="0" width="90%"></iframe>
+            <div>
+    <a href="https://onecompiler.com/html" target="_blank">Click here to open the online editor</a>
+            </div></div>
+
+            
+        <!-- container - 5 -->
+        <div class="sub-container 5" id="cont-5"><h2>Visit Us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400402283311!2d78.039567274232!3d27.17514954876542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1745856671343!5m2!1sen!2sin" width="50%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>**this is a demo page with demo address**</p></div>
+    </div>
+</div>
+</body> 
+</html>
